@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "routes": [
-    { "src": "/guides/(.*)", "dest": "/guides/$1" },
-    { "src": "/pre-arrival/(.*)", "dest": "/pre-arrival/$1" },
-    { "src": "/ocr/(.*)", "dest": "/ocr/$1" },
-    { "src": "/(.*)", "dest": "/landing-page/index.html" }
-  ]
-}
